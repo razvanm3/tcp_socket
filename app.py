@@ -1,7 +1,7 @@
 import io
 import socket
 
-HOST = "192.168.0.104"  # Standard loopback interface address (localhost)
+HOST = "13.69.68.62"  # Standard loopback interface address (localhost)
 PORT = 5000  # Port to listen on (non-privileged ports are > 1023)
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
